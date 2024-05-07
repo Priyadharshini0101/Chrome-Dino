@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(32, 33, 36);
+    text-align: center;
+    font-family: 'Press Start 2P', system-ui;
+    justify-content: space-around;
+}
+
+#board {
+    margin-top: 5%;
+}
