@@ -76,7 +76,7 @@ window.onload = function () {
         playAgain();
     });
 
-    context.font = "24px 'Press Start 2P',system-ui";
+    context.font = "24px 'Press Start 2P'";
     context.fillStyle = "rgb(154, 160, 166)";
     context.fillText("Chrome Dinosur", 15, 300);
     context.font = "16px  sans-serif";
@@ -118,7 +118,7 @@ function update() {
     id = requestAnimationFrame(update)
 
     context.clearRect(0, 0, board.width, board.height);
-    context.font = "24px 'Press Start 2P',system-ui";
+    context.font = "24px 'Press Start 2P'";
     context.fillStyle = "rgb(154, 160, 166)";
     context.fillText("Chrome Dinosur", 20, 300);
     velocityY += gravity;
