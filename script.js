@@ -57,10 +57,10 @@ window.onload = function () {
     }
 
     cactus1Img = new Image();
-    cactus1Img.src = './big-cactus1.png';
+    cactus1Img.src = './cactus1.png';
 
     cactus2Img = new Image();
-    cactus2Img.src = './big-cactus2.png';
+    cactus2Img.src = './cactus2.png';
 
     cactus3Img = new Image();
     cactus3Img.src = './cactus3.png';
